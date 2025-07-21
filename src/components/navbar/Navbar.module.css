@@ -1,0 +1,14 @@
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.logo-link{
+  text-decoration: none;
+}
+
+.navbar-item{
+  text-decoration: none;
+  margin: 0 10px;
+}
