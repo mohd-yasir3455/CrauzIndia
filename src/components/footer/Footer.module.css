@@ -1,7 +1,11 @@
+.footer{
+  background-color: black;
+}
 
 .footer-container{
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .footer-items{
@@ -9,8 +13,42 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.footer-item{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-item:hover{
+  color: black;
+}
+
 .footer-copyright{
   display: flex;
   justify-content: center;
+  color: white;
+  padding: 0.5rem;
 }
 
+.contact-us-form{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.social-link{
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
