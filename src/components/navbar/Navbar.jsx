@@ -4,7 +4,7 @@ const Navbar = () => {
     <div className={styles['navbar-container']}>
 
       <div navbar-logo>
-        <a className={styles['logo-link']} href="">Crauz India</a>
+        <a className={styles['logo-link']} href="/">Crauz India</a>
       </div>
 
       <div className="navbar-items-container">
@@ -14,6 +14,7 @@ const Navbar = () => {
           <a className={`${styles['navbar-item']} ${styles['navbar-blog']}`} href="blog">Blog</a>
           <a className={`${styles['navbar-item']} ${styles['navbar-Services']}`} href="services">Services</a>
       </div>
+
 
     </div>
   )

@@ -1,14 +1,27 @@
 .navbar-container{
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  padding: 1rem 0;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  
 }
 
 .logo-link{
   text-decoration: none;
+  color: black;
+}
+
+.logo-link:hover{
+  color: grey;
 }
 
 .navbar-item{
   text-decoration: none;
   margin: 0 10px;
+  color: black;
+}
+
+.navbar-item:hover{
+  color: grey;
 }

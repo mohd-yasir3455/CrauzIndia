@@ -5,36 +5,39 @@ const Footer = () => {
     <div className={styles['footer']}>
       <div className={styles['footer-container']}>
         <div className={styles['footer-items']}>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          
         </div>
 
         <div className={styles['footer-items']}>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
+          <a className={styles['footer-item']} href="">Footer</a>
         </div>
 
-        <div className={styles['footer-items']}>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-        </div>
+        <div className={styles['contact-us-form']}>
+          Contact Us
+          <span>Email: </span>
+          <input type="email" />
+          <span>Message: </span>
+          <textarea name="" id=""></textarea>
 
-        <div className={styles['footer-items']}>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
-          <a href="">Footer</a>
+          <input type="submit" />
         </div>
+      </div>
+
+      <div className={styles['social-links']}>
+        <a className={styles['social-link']} href="">Social Link</a>
+        <a className={styles['social-link']} href="">Social Link</a>
+        <a className={styles['social-link']} href="">Social Link</a>
+        <a className={styles['social-link']} href="">Social Link</a>
+        
       </div>
 
       <div className={styles['footer-copyright']}>
