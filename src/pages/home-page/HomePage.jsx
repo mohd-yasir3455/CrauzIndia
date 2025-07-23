@@ -14,14 +14,14 @@ const HomePage = () => {
       </div>
 
       <div className={styles['our-goal']}>
-        <h1>Our Goal</h1>
-        To deliver digital solutions that are fast, flexible, and built to perform, helping brands grow smarter and move quicker.
-        <h3>Freelance-First & Business-Focused</h3>
-        We are powered by people — a diverse and skilled freelance community that brings strategic thinking and real-world execution together. Every project is built to drive brand visibility and business growth, efficiently and effectively.
-        <h3>Creatively Bold</h3>
-        We think beyond the brief. From objective-led communication to bold, unconventional ideas — we push creative boundaries that make brands stand out. #BuiltDifferent
-        <h3>Fast, Flexible, Reliable</h3>
-        With a wide talent base and agile workflows, we ensure quick turnarounds, cost-effective delivery, and reliable output every single time.
+        <h1 className={styles['our-goal-h1']}>Our Goal</h1>
+        <p className={styles['our-goal-p']}>To deliver digital solutions that are fast, flexible, and built to perform, helping brands grow smarter and move quicker.</p>
+        <h3 className={styles['our-goal-h3']}>Freelance-First & Business-Focused</h3>
+        <p className={styles['our-goal-p']}>We are powered by people — a diverse and skilled freelance community that brings strategic thinking and real-world execution together. Every project is built to drive brand visibility and business growth, efficiently and effectively.</p>
+        <h3 className={styles['our-goal-h3']}>Creatively Bold</h3>
+        <p className={styles['our-goal-p']}>We think beyond the brief. From objective-led communication to bold, unconventional ideas — we push creative boundaries that make brands stand out. <u>#BuiltDifferent</u></p>
+        <h3 className={styles['our-goal-h3']}>Fast, Flexible, Reliable</h3>
+        <p className={styles['our-goal-p']}>With a wide talent base and agile workflows, we ensure quick turnarounds, cost-effective delivery, and reliable output every single time.</p>
       </div>
 
       <div className={styles['slider-container']}>
