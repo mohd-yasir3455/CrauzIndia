@@ -9,7 +9,7 @@
 }
 
 .div-class{
-  background-image: url(../../assets/background.jpg);
+  background-image: url(../../assets/background-1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -29,4 +29,29 @@
 
 .our-goal{
   padding: 1rem;
+  height: 100vh;
+  background-image: url(../../assets/background_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+
+}
+
+.our-goal-h1{
+  font-size: 5rem;
+  padding: 1rem;
+}
+.our-goal-h3{
+  font-size: 2rem;
+}
+
+.our-goal-p{
+  padding: 1rem;
+  font-weight: 600;
 }
