@@ -12,6 +12,7 @@
 .logo-link{
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 
 .logo-link:hover{
@@ -22,6 +23,7 @@
   text-decoration: none;
   margin: 0 10px;
   color: black;
+  font-weight: bolder;
 }
 
 .navbar-item:hover{
