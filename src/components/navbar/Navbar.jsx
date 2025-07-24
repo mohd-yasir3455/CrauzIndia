@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div className={styles['navbar-container']}>
 
-      <div navbar-logo>
+      <div className='navbar-logo'>
         <a className={styles['logo-link']} href="/">Crauz India</a>
       </div>
 
