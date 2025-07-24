@@ -17,9 +17,9 @@
 }
 
 
-.our-goal{
+.our-goal-container{
   padding: 1rem;
-  height: 100vh;
+  height: 90vh;
   background-image: url(../../assets/background_image.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -30,6 +30,13 @@
   justify-content: center;
   font-size: 1rem;
 
+}
+
+.our-goal{
+  background-color: rgba(213,213,213,0.5);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .our-goal-h1{
