@@ -1,8 +1,14 @@
 import Navbar from "../../components/navbar/Navbar"
 import Footer from "../../components/footer/Footer"
 import styles from "../home-page/HomePage.module.css"
-
+import SlideShow from "../../components/slideshow/SlideShow"
 const HomePage = () => {
+    const services = [
+      <a href="">Services 1</a>,
+      <a href="">Services 2</a>,
+      <a href="">Services 3</a>,
+      <a href="">Services 4</a>,
+      ]
   return (
     <div>
 
@@ -23,14 +29,7 @@ const HomePage = () => {
         <h3 className={styles['our-goal-h3']}>Fast, Flexible, Reliable</h3>
         <p className={styles['our-goal-p']}>With a wide talent base and agile workflows, we ensure quick turnarounds, cost-effective delivery, and reliable output every single time.</p>
       </div>
-
-      <div className={styles['slider-container']}>
-        <a href="">Services 1</a>
-        <a href="">Services 2</a>
-        <a href="">Services 3</a>
-        <a href="">Services 4</a>
-      </div>
-
+      <SlideShow items={services} visibleCount={3} interval={2000}></SlideShow>
       <Footer></Footer>
     </div>
   )
