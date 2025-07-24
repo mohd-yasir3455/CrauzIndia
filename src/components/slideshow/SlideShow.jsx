@@ -23,7 +23,7 @@ const Slideshow = ({ items, visibleCount = 3, interval = 2000 }) => {
     <div className={styles['slider-container']}>
       {getVisibleItems().map((item, index) => (
         <div key={index} className={styles['slider-item']}>
-          <a href="">{item}</a>
+          {item}
         </div>
       ))}
     </div>
