@@ -14,7 +14,7 @@ const Navbar = () => {
           <a className={`${styles['navbar-item']} ${styles['navbar-blog']}`} href="blog">Blog</a>
           <a className={`${styles['navbar-item']} ${styles['navbar-Services']}`} href="services">Services</a>
       </div>
-
+      
 
     </div>
   )

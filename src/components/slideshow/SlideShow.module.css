@@ -10,12 +10,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 33%;
+  width: 100%;
   border: 2px solid grey;
   border-radius: 50px;
+  background-color: black;
+  
 }
 
 .slider-item a{
   text-decoration: none;
   font-size: 2rem;
+  color: white;
+  animation: slideFade 4s ease-in-out infinite;
+}
+
+@keyframes slideFade {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
