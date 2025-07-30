@@ -35,8 +35,14 @@
 .our-goal{
   background-color: rgba(213,213,213,0.5);
   border-radius: 2rem;
-  padding: 1rem;
+  height: 25vh;
+  padding: 14rem;
   margin: 1rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-goal-h1{

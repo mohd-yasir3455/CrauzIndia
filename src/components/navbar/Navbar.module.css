@@ -1,18 +1,29 @@
 .navbar-container{
   display: flex;
+  position:fixed;
+  width: 100%;
+  height: 3vh;
   justify-content: space-between;
   padding: 1rem 0;
   font-size: 1rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: rgba(216,216,216,0.5);
 }
+
+.navbar-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-img{
+  height: 3rem;
+  margin: 0 1rem;
+}
+
 .navbar-items-container{
   display: flex;
   flex-wrap: wrap;
-}
-.logo-link{
-  text-decoration: none;
-  color: black;
-  font-weight: bolder;
+  align-items: center;
 }
 
 .logo-link:hover{

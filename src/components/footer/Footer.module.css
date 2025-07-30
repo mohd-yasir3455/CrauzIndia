@@ -12,8 +12,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
+.footer-image{
+  width: 90%;
+}
 .footer-item{
   color: white;
   text-decoration: none;
@@ -31,13 +35,29 @@
 }
 
 .contact-us-form{
+  width: 40%;
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 1px solid grey;
-  padding: 5px;
+  padding: 1rem;
+}
+.contact-us-div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
+.contact-us-button{
+  width: 7rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+.contact-us-button:hover{
+  background-color: grey;
+}
 .social-links{
   display: flex;
   justify-content: center;
@@ -45,10 +65,14 @@
 }
 
 .social-link{
-  padding: 5px;
+  padding: 1rem;
   margin: 0 10px;
-  border: 1px solid grey;
   border-radius: 10px;
   text-decoration: none;
   color: white;
+  font-size: 3rem;
+}
+
+.social-links a:hover{
+  background-color: lightgray;
 }

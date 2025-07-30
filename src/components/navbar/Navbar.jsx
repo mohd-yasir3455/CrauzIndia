@@ -3,8 +3,11 @@ const Navbar = () => {
   return (
     <div className={styles['navbar-container']}>
 
-      <div className='navbar-logo'>
-        <a className={styles['logo-link']} href="/">Crauz India</a>
+      <div className={styles['navbar-logo']}>
+        <a href="/">
+          <img className={styles['logo-img']} src="src/assets/Logo/Main_logo.svg" alt="logo" />
+        </a>
+        <h1>Crauz India</h1>
       </div>
 
       <div className={styles['navbar-items-container']}>
