@@ -15,10 +15,10 @@ const HomePage = () => {
       <div className={styles['div-class']}>
         <Navbar></Navbar>
         <div className={styles['main-div']}>
-          Innovating To <br />Impact
+          Raw To <br />Remarkable
         </div>
       </div>
-
+      <SlideShow ></SlideShow>
       <div className={styles['our-goal-container']}>
         <div className={styles['our-goal']}>
           <h1 className={styles['our-goal-h1']}>Our Goal</h1>
@@ -30,9 +30,9 @@ const HomePage = () => {
           <h3 className={styles['our-goal-h3']}>Fast, Flexible, Reliable</h3>
           <p className={styles['our-goal-p']}>With a wide talent base and agile workflows, we ensure quick turnarounds, cost-effective delivery, and reliable output every single time.</p>
         </div>
-        <SlideShow items={services} visibleCount={1} interval={4000}></SlideShow>
+       
       </div>
-      
+       
       <Footer></Footer>
     </div>
   )
