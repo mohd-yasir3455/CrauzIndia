@@ -1,5 +1,6 @@
 .footer{
   background-color: black;
+  padding: 1rem;
 }
 
 .footer-container{
@@ -36,18 +37,24 @@
 
 .contact-us-form{
   width: 40%;
-  color: white;
+  color: black;
+  background-color: #c30000;
+  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid grey;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 .contact-us-div{
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.contact-us-input{
+  width: 20rem;
+  height: 1.5rem;
+  border-radius: 1rem;
 }
 
 .contact-us-button{
@@ -56,7 +63,8 @@
   border-radius: 1rem;
 }
 .contact-us-button:hover{
-  background-color: grey;
+  color: white;
+  background-color: black;
 }
 .social-links{
   display: flex;
