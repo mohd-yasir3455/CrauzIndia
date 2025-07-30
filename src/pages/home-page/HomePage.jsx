@@ -30,8 +30,20 @@ const HomePage = () => {
           <h3 className={styles['our-goal-h3']}>Fast, Flexible, Reliable</h3>
           <p className={styles['our-goal-p']}>With a wide talent base and agile workflows, we ensure quick turnarounds, cost-effective delivery, and reliable output every single time.</p>
         </div>
+
+        </div>
+
+        <div className={styles['our-work-container']}>
+          <h1 className={styles['our-work-title']}>Our Work</h1>
+          <div className={styles['our-work-1']}>
+              <h1>Work 1</h1>
+          </div>
+
+          <div className={styles['our-work-2']}>
+              <h1>Work 2</h1>
+          </div>
+        </div>
        
-      </div>
        
       <Footer></Footer>
     </div>
