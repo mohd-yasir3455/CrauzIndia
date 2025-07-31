@@ -48,30 +48,35 @@ const Navbar = () => {
         </div>
       
       </div>
-
+      
+    
       <div ref={menuRef}
         className={`${styles.dropdownMenu} ${isHovered ? styles.show : ''}`}
         onMouseLeave={handleMenuLeave}>
+          <h1>Services</h1>
+        <div className={styles.ServiesContainer}>
 
-        <div className={styles['services']}>
-            <a href="">Service</a>
-            <a href="">Service</a>
-            <a href="">Service</a>
-            <a href="">Service</a>
-        </div>
+          <div className={styles['services']}>
+              <a href="">Service</a>
+              <a href="">Service</a>
+              <a href="">Service</a>
+              <a href="">Service</a>
+          </div>
 
-        <div className={styles['services']}>
-            <a href="">Service</a>
-            <a href="">Service</a>
-            <a href="">Service</a>
-            <a href="">Service</a>
-        </div>
+          <div className={styles['services']}>
+              <a href="">Service</a>
+              <a href="">Service</a>
+              <a href="">Service</a>
+              <a href="">Service</a>
+          </div>
 
-        <div className={styles['services']}>
-            <a href="">Service</a>
-            <a href="">Service</a>
-            <a href="">Service</a>
-            <a href="">Service</a>
+          <div className={styles['services']}>
+              <a href="">Service</a>
+              <a href="">Service</a>
+              <a href="">Service</a>
+              <a href="">Service</a>
+          </div>
+
         </div>
       </div>
 

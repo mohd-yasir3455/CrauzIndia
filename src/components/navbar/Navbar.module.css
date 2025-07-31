@@ -8,6 +8,7 @@
   font-size: 1rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   background-color: rgba(216,216,216,0.5);
+  z-index: 10;
 }
 
 .navbar-logo{
@@ -54,11 +55,18 @@
   display: none;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   z-index: 10;
 }
 
 .show {
   display: flex;
+}
+
+.ServiesContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .services{
@@ -68,6 +76,7 @@
   padding: 1rem;
   border-radius: 1rem;
   width: 20vw;
+  margin: 1rem;
 }
 
 .services a{
