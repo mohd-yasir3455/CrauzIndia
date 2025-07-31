@@ -41,3 +41,40 @@
   color: grey;
   text-decoration: underline;
 }
+
+.dropdownMenu {
+  position: fixed;
+  top: 8vh;
+  background-color: white;
+  height: 50vh;
+  width: 100vw;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+}
+
+.show {
+  display: flex;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 20vw;
+}
+
+.services a{
+  text-decoration: none;
+  color: grey;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
