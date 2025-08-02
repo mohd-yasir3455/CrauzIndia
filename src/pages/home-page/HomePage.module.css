@@ -6,6 +6,7 @@
   font-weight: bold;
   word-break:break-all;
   justify-content: center;
+  animation: slideLeft 3s ease-in-out 1;
 }
 
 .div-class{
@@ -18,31 +19,35 @@
 
 
 .our-goal-container{
-  padding: 1rem;
-  height: 90vh;
-  background-image: url(../../assets/background_image.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-goal{
+  width: 100%;
+  background-image: url(../../assets/our-work-1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  height: 90vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 1rem;
-
-}
-
-.our-goal{
-  background-color: rgba(213,213,213,0.5);
-  border-radius: 2rem;
-  height: 25vh;
-  padding: 14rem;
-  margin: 1rem;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.our-goal-text{
+  width: 90%;
+  height: 80vh;
+  background-color: rgba(216,216,216,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .our-goal-h1{
@@ -117,4 +122,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
+}
+
+@keyframes slideLeft {
+  0%   { transform: translateY(-100%); }
+  50%   { transform: translateY(10%); }
+  100% { transform: translateX(0); }
 }
