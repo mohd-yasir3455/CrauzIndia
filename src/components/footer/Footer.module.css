@@ -7,25 +7,33 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 
-.footer-items{
+.footer-items-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.footer-logo{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.footer-image{
-  width: 90%;
-}
-.footer-item{
-  color: white;
-  text-decoration: none;
+.footer-logo-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+
 }
 
-.footer-item:hover{
-  color: black;
+.footer-image{
+  width: 100%;
 }
 
 .footer-copyright{
@@ -36,9 +44,10 @@
 }
 
 .contact-us-form{
-  width: 40%;
+  width: 50%;
   color: black;
-  background-color: #c30000;
+  background-color: white;
+  border: 5px solid #c00000;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -52,7 +61,7 @@
   justify-content: space-between;
 }
 .contact-us-input{
-  width: 20rem;
+  width: 50%;
   height: 1.5rem;
   border-radius: 1rem;
 }
@@ -64,23 +73,22 @@
 }
 .contact-us-button:hover{
   color: white;
-  background-color: black;
+  background-color: #FF0000;
 }
 .social-links{
   display: flex;
-  justify-content: center;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .social-link{
-  padding: 1rem;
-  margin: 0 10px;
+  padding: 0.5rem;
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .social-links a:hover{
-  background-color: lightgray;
+  background-color: #FF0000;
 }
