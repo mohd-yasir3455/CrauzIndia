@@ -1,6 +1,6 @@
 import Navbar from "../../components/navbar/Navbar"
 import Footer from "../../components/footer/Footer"
-import styles from "../contact-us/ContactUS.module.css"
+import styles from "../contact-us/ContactUs.module.css"
 
 const ContactUs = () => {
   return (
