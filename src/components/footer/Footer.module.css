@@ -5,9 +5,9 @@
 
 .footer-container{
   display: flex;
-  justify-content: space-between;
   padding: 1rem;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-items-container{
@@ -43,37 +43,49 @@
   padding: 0.5rem;
 }
 
-.contact-us-form{
-  width: 50%;
-  color: black;
+.contact-us-form {
   background-color: white;
-  border: 5px solid #c00000;
-  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
-}
-.contact-us-div{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.contact-us-input{
-  width: 50%;
-  height: 1.5rem;
+  height: 40vh;
+  width: 40%;
+  border: 1px solid white;
+  padding: 1rem;
   border-radius: 1rem;
 }
 
-.contact-us-button{
-  width: 7rem;
-  height: 2rem;
-  border-radius: 1rem;
+.contact-us-form p{
+  color: gray;
+  font-weight: 500;
 }
-.contact-us-button:hover{
-  color: white;
+
+.contact-us-form input{
+  width: 90%;
+  margin: 10px;
+  height: 5vh;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.contact-us-form input:focus{
+  outline: none;
+  border-bottom: 3px solid #FF0000;
+}
+
+.contact-us-form button{
+  padding: 10px;
+  margin: 1rem;
+  width: 10rem;
+  border-radius: 10px;
   background-color: #FF0000;
+  color: white;
+}
+
+.contact-us-form button:hover{
+  background-color: white;
+  color: #FF0000;
 }
 .social-links{
   display: flex;
