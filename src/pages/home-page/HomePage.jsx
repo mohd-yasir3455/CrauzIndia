@@ -27,7 +27,7 @@ const HomePage = () => {
             <h3 className={styles['our-goal-h3']}>Freelance-First & Business-Focused</h3>
             <p className={styles['our-goal-p']}>We are powered by people — a diverse and skilled freelance community that brings strategic thinking and real-world execution together. Every project is built to drive brand visibility and business growth, efficiently and effectively.</p>
             <h3 className={styles['our-goal-h3']}>Creatively Bold</h3>
-            <p className={styles['our-goal-p']}>We think beyond the brief. From objective-led communication to bold, unconventional ideas — we push creative boundaries that make brands stand out. <u>#BuiltDifferent</u></p>
+            <p className={styles['our-goal-p']}>We think beyond the brief. From objective-led communication to bold, unconventional ideas — we push creative boundaries that make brands stand out. </p>
             <h3 className={styles['our-goal-h3']}>Fast, Flexible, Reliable</h3>
             <p className={styles['our-goal-p']}>With a wide talent base and agile workflows, we ensure quick turnarounds, cost-effective delivery, and reliable output every single time.</p>
           </div>

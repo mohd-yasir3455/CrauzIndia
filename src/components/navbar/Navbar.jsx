@@ -2,7 +2,7 @@ import styles from '../navbar/Navbar.module.css'
 import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFacebook, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
-import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown,faCaretUp } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
   const dropdownRef = useRef(null);
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div className={styles['navbar-logo']}>
           <a href="/">
-            <img className={styles['logo-img']} src="src/assets/Logo/Main-logo.svg" alt="logo" />
+            <img className={styles['logo-img']} src="src/assets/Logo/footer-logo-white.svg" alt="logo" />
           </a>
         </div>
 
@@ -53,20 +53,20 @@ const Navbar = () => {
           onMouseLeave={handleMouseLeave} href="#">Services</a>
             <a className={styles['navbar-item']} href="portfolio">Portfolio</a>
             <a className={styles['navbar-item']} href="blog">Blog</a>
-            <div className={styles['navbar-item']} onClick={handleContactClick}>Contact Us {arrowIcon?<FontAwesomeIcon icon={faAngleDown} />:<FontAwesomeIcon icon={faAngleUp} />}
+            <div className={styles['navbar-item']} onClick={handleContactClick}>Contact Us{arrowIcon?<FontAwesomeIcon icon={faCaretDown} />:<FontAwesomeIcon icon={faCaretUp} />}
               <div className={styles['contact-us-dropdown']} id='ContactMenu'>
                 <a href="">Partner</a>
                 <a href="">Work with us</a>
-                <a href="">4C Connect</a>
+                <a href="">Connect</a>
               </div>
             </div>
         </div>
 
       <div className={styles['social-links']}>
-        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faInstagram} style={{color:'#FF0000'}}/></a>
-        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faLinkedin} style={{color:'#FF0000'}}/></a>
-        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faWhatsappSquare} style={{color:'#FF0000'}}/></a>
-        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faFacebook} style={{color:'#FF0000'}}/></a>
+        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faInstagram} className={styles['navbar-social']}/></a>
+        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faLinkedin} className={styles['navbar-social']}/></a>
+        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faWhatsappSquare} className={styles['navbar-social']}/></a>
+        <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faFacebook} className={styles['navbar-social']}/></a>
       </div>
 
       </div>

@@ -2,15 +2,18 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: bold;
   word-break:break-all;
-  justify-content: center;
+  color: white;
+  margin-left: 5rem;
   animation: slideLeft 3s ease-in-out 1;
 }
 
 .div-class{
-  background-image: url(../../assets/background-1.jpg);
+   background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/src/assets/hero-image.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -26,12 +29,8 @@
 }
 
 .our-goal{
-  width: 100%;
-  background-image: url(../../assets/our-work-1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  width: 90%;
+  background-color: white;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -39,12 +38,13 @@
 }
 
 .our-goal-text{
-  width: 90%;
+  width: 60%;
   height: 80vh;
-  background-color: rgba(216,216,216,0.5);
+  /* background-color: rgba(216,216,216,0.5); */
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
   border-radius: 2rem;
   flex-direction: column;
   overflow: hidden;
@@ -53,14 +53,19 @@
 .our-goal-h1{
   font-size: 5rem;
   padding: 1rem;
+  color: #FF0000;
 }
 .our-goal-h3{
   font-size: 2rem;
+  color: black;
+  /* -webkit-text-stroke: 1px #FF0000; */
 }
 
 .our-goal-p{
   padding: 1rem;
   font-weight: 600;
+  font-size: 13px;
+  color: gray;
 }
 
 .our-work-container{
@@ -125,7 +130,7 @@
 }
 
 @keyframes slideLeft {
-  0%   { transform: translateY(-100%); }
-  50%   { transform: translateY(10%); }
+  0%   { transform: translateX(-100%); }
+  50%   { transform: translateX(10%); }
   100% { transform: translateX(0); }
 }

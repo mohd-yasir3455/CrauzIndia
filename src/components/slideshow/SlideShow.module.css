@@ -2,11 +2,12 @@
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background: grey;
+  background: white;
   height: 10vh;
   display: flex;
   align-items: center;
   position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .sliding-text {
@@ -14,7 +15,7 @@
   padding-left: 100%;
   animation: slide-left 20s linear infinite;
   font-size: 24px;
-  color: white;
+  color: #FF0000;
 }
 
 @keyframes slide-left {

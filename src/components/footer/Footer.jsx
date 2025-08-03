@@ -21,16 +21,13 @@ const Footer = () => {
             <a href='/' className={styles['social-link']}><FontAwesomeIcon icon={faFacebook}/></a>
           </div>
         </div>
-
+        
         <div className={styles['contact-us-form']}>
-          <div> <h1>Contact Us</h1></div> <br />
-          <div className={styles['contact-us-div']}>
-          <h3>Email:</h3>
-          <input className={styles['contact-us-input']} type="email" /></div> <br />
-          <div className={styles['contact-us-div']}> <h3>Message:</h3>
-          <textarea  className={styles['contact-us-input']} style={{ height: '3rem' }}name="" id=""></textarea> </div><br />
-
-          <input type="submit" className={styles['contact-us-button']} />
+          <p>Please fill the information for more detail</p>
+          <input type="text" placeholder='Name' required="" />
+          <input type="email" placeholder='Email' />
+          <input type="tel" placeholder='Phone Number' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+          <button>Submit</button>
         </div>
 
       </div>
